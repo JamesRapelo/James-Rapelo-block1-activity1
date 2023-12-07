@@ -4,15 +4,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 
-class MainActivity : AppCompatActivity() {
+class Page2 : AppCompatActivity() {
 
-    private lateinit var nextPage: ImageView
+    private lateinit var backPage: ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
-
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_page2)
 
-        nextPage = findViewById(R.id.nextArrow)
-
+        backPage = findViewById(R.id.backArrow)
     }
 }
